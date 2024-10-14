@@ -1,0 +1,93 @@
+    /* Hero Section */
+    .hero-section {
+        background-image: url('img/fondo-comunidad.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+    
+    /* Servicios */
+    #services h2, #testimonials h2, #gallery h2, #participation h2 {
+        color: #343a40;
+    }
+    
+    #services i {
+        color: #28a745;
+        margin-bottom: 1rem;
+    }
+  
+    /* Testimonios */
+    blockquote {
+        font-size: 1.2rem;
+        font-style: italic;
+        border-left: 5px solid #007bff;
+        padding-left: 15px;
+    }
+
+    /* Galería */
+    #gallery img {
+        border-radius: 8px;
+        margin: 10px;
+    }
+
+    /* Efecto de zoom en imágenes */
+    img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.05); /* Aumenta el tamaño en un 5% */
+    }
+
+    
+    /* Pie de página */
+    footer {
+        background-color: #343a40;
+    }
+    
+    footer p, footer a {
+        color: white;
+    }
+    
+
+    /* Sección de testimonios */
+    #testimonials {
+        background-color: #f7f7f7;
+    }
+
+    .testimonial-card {
+        border: 1px solid #e0e0e0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .testimonial-card:hover {
+        transform: translateY(-10px); /* Efecto de elevación al pasar el ratón */
+    }
+
+    .testimonial-text {
+        font-size: 1.1rem;
+        font-style: italic;
+        color: #555; /* Color más suave para el texto */
+        margin-bottom: 1rem;
+    }
+
+    blockquote-footer {
+        font-size: 0.9rem;
+        color: #007bff; /* Color del nombre */
+    }
+
+    /* Espaciado y ajuste de diseño */
+    #testimonials h2 {
+        font-size: 2rem;
+        color: #333;
+        font-weight: bold;
+    }
+
+    #testimonials .row {
+        display: flex;
+        justify-content: center;
+    }
